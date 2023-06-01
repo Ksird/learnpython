@@ -1,7 +1,7 @@
 # 2.3.2 在字符串中使用变量
 first_name = "ada"
 last_name = "lovelace"
-full_name = f"{first_name} {last_name}"  # f字符串 format，通过吧或括号内的变量替换为其值来设置字符串的格式 ver>=3.6
+full_name = f"{first_name} {last_name}"  # f字符串 format，通过吧或括号内的变量替换为其值来设置字符串的格式 py_ver>=3.6
 print(full_name)
 print(f"Hello, {full_name.title()}")
 
